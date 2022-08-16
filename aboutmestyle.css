@@ -1,7 +1,17 @@
-body {
-	background: url(checkr.jpg);
-	margin-top: 250px;
+body, html {
+	width:  100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
 }
+
+body {
+	background: url("checkr.jpg") no-repeat center center fixed;
+	-webkit-backround-size:  cover;
+	-moz-backround-size:  cover;
+	-o-backround-size: cover;
+	backround-size:  cover;
+}
+
 
 h1, p {
 	font-family: Poppins, sans-serif;
@@ -12,6 +22,7 @@ h1 {
 	justify-content: center;
 	color: #eff1f3;
 	font-size: 230%;
+	margin-top: 250px;
 }
 
 p {
