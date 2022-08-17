@@ -47,6 +47,10 @@ p {
 	animation-duration: 10s;
 }
 
+.fd {
+	font-weight: 300;
+}
+
 hr {
 	margin: 10px auto;
 	border:  1px solid #eff1f3;
