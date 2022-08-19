@@ -5,7 +5,7 @@ body, html {
 }
 
 body {
-	background: url("checkr.jpg") no-repeat center center fixed;
+	background: url("bg.jpg") no-repeat center center fixed;
 	-webkit-backround-size:  cover;
 	-moz-backround-size:  cover;
 	-o-backround-size: cover;
