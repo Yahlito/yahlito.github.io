@@ -35,6 +35,7 @@ p {
 .btn {
 	font-weight: 600;
 	border-radius: 300px;
+	display: inline-block;
 }
 
 .btn:hover {
