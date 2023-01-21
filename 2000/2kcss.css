@@ -1,0 +1,40 @@
+.h2 {
+		  -webkit-text-stroke-width: 0.2px;
+  	-webkit-text-stroke-color: black;
+}
+
+.myDiv {
+	background-image: url(checkthis.png);
+	  border: 300px black;
+	  width: 600px;
+	  text-align: center;
+	  margin: auto;
+	  padding: 5px;
+	  opacity: 1;
+	  position: relative;
+	  isolation: isolate;
+	  -webkit-text-stroke-width: 0.1px;
+  	-webkit-text-stroke-color: black;
+}
+
+.myDiv::after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	inset:  0;
+	background-image: url(checkthis.jpg);
+	opacity: 0.65;
+}
+
+
+.h2 {
+	background-color: whitesmoke; 
+	width:600px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	background-image: url(screen-0.jpg); 
+	color: ghostwhite; 
+	font-family:verdana;"
+}
+
+.h3 {
+font-family: Verdana;
+}
