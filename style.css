@@ -48,6 +48,7 @@ hr {
 	font-weight: 300;
 	border-radius: 300px;
 	display: inline-block;
+	margin: 50px 25px;
 }
 
 .btn:hover {
