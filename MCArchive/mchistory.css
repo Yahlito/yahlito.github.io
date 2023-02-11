@@ -83,9 +83,13 @@
     border-radius: 3px;
 }
 
-.conatiner .btn a{
-    font-size: 1.2em;
+.container .btn a{
+    font-size: medium;
     text-decoration: none;
-    font-weight: bolder;
-    color: black;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.tp {
+    margin-bottom: 12px;
 }
