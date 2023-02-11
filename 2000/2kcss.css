@@ -4,7 +4,7 @@
 }
 
 .myDiv {
-	background-image: url(checkthis.png);
+	background-image: url('2000pics/checkthis.png');
 	  border: 300px black;
 	  width: 600px;
 	  text-align: center;
@@ -22,7 +22,7 @@
 	position: absolute;
 	z-index: -1;
 	inset:  0;
-	background-image: url(checkthis.jpg);
+	background-image: url('2000pics/checkthis.jpg');
 	opacity: 0.65;
 }
 
@@ -30,9 +30,9 @@
 .h2 {
 	background-color: whitesmoke; 
 	width:600px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	background-image: url(screen-0.jpg); 
+	background-image: url('2000pics/screen-0.jpg'); 
 	color: ghostwhite; 
-	font-family:verdana;"
+	font-family:verdana"
 }
 
 .h3 {

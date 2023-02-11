@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'MinecraftiaRegular';
+    color:whitesmoke;
+    text-shadow: 2px 2px 5px black;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px 20px 0 20px;
+
+}
+
+
+.container .header {
+    margin-bottom: 20px;
+}
+
+.container .header h1 {
+    font-size: bold;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 3px solid black;
+    text-shadow: 2px 2px 5px black;
+}
+
+.conatiner .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conatiner .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5px;
+}
+
+.conatiner .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.nmc {
+    margin-right: 10px;
+}
+
+.firstSection .h2 {
+    margin-top: 500px;
+}
+
+.secondSection {
+    margin-top: 100px;
+}
+
+.secondSection h3 {
+    margin-top: 20px;
+}
+
+.secondSection .cms {
+    margin-right: 5px;
+}
+
+.skin:hover {
+    opacity: 0.8;
+    filter: brightness(0%);
+}
