@@ -76,3 +76,16 @@
     opacity: 0.8;
     filter: brightness(0%);
 }
+
+.container .btn {
+    margin: 40px 0 70px 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.conatiner .btn a{
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
