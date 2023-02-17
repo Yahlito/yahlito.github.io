@@ -34,14 +34,14 @@
     text-shadow: 2px 2px 5px black;
 }
 
-.conatiner .box {
+.container .box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.conatiner .box .dream {
+.container .box .dream {
     display: flex;
     flex-direction: column;
     width: 32.5px;
