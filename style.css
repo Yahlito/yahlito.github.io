@@ -64,3 +64,10 @@ hr {
 	margin-left: 4px;
 	color: rgb(233, 198, 155);
 }
+
+@media only screen and (max-device-width: 600px) {
+	.maintext {
+		margin-top: 50px;
+	}
+
+}
