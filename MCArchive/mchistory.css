@@ -92,10 +92,6 @@
 } 
 
 @media only screen and (max-device-width: 600px) {
-    .container {
-        width: 100%;
-        position: fixed;
-    }
 
     .container .box {
         flex-direction: column;
@@ -109,4 +105,9 @@
     .box {
         margin-right: 0px;
     } 
+
+    .yt {
+        width: 100%;
+        height: auto;
+    }
 }
