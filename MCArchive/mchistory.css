@@ -87,6 +87,26 @@
 .tp {
     margin-bottom: 12px;
 }
-.box {
+ .box {
     margin-right: 160px;
+} 
+
+@media only screen and (max-device-width: 600px) {
+    .container {
+        width: 100%;
+        position: fixed;
+    }
+
+    .container .box {
+        flex-direction: column;
+    }
+
+    .container .box .dream {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .box {
+        margin-right: 0px;
+    } 
 }
