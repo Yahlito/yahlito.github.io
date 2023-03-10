@@ -18,13 +18,14 @@
 <body>
 	<h1 class="maintext animate__animated animate__fadeIn">Hello!</h1>
 		<p class ="paragraph">My name is Yahli</p>
-		<p class="paragraph1">I like to learn stuff, basically everything.</p>
+		<p class="paragraph1">I like to learn <span class="auto-type"></span>
+		<p class="paragraph1">Basically everything ;)</p>
 
 			<img class="image" src="ProfilePicture.png"></img>
 
 		<hr></hr>
 		<div class="text-center">
-		<a style="display:inline-block;" href="https://youtu.be/dQw4w9WgXcQ">
+		<a style="display:inline-block;" href="https://youtu.be/xvFZjo5PgG0">
 			<button type="button" class="btn btn-light btn-sm">Don't click!</button>
 		</a>
 
@@ -42,5 +43,17 @@
 		</a>
 
 		</div>
+		
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		var options = {
+			strings: ["Coding.", "Philosophy.", "History.", "Physics.", "Math.", "Geography.", "Anthropology.", "Tech."], 
+			typeSpeed: 150, 
+			backSpeed: 150, 
+			loop: true
+		}
+		
+		var typed = new Typed(".auto-type", options)
+	</script>
 </body>
 </html>

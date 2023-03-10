@@ -9,7 +9,6 @@ body {
 	-webkit-backround-size:  cover;
 	-moz-backround-size:  cover;
 	-o-backround-size: cover;
-	backround-size:  cover;
 }
 
 .maintext {
@@ -61,6 +60,7 @@ hr {
 	animation-duration: 10s;
 }
 
-.paragraph1 {
-	margin
+.auto-type {
+	margin-left: 4px;
+	color: rgb(233, 198, 155);
 }
